@@ -1,0 +1,44 @@
+legendsgambit/
+├── assets/
+│   ├── ironboard.png
+│   ├── ironpawn.png
+│   ├── ironrook.png
+│   ├── ironknight.png
+│   ├── ironbishop.png
+│   ├── ironking.png
+│   ├── silverboard.png
+│   ├── silverpawn.png
+│   ├── silverrook.png
+│   ├── silverknight.png
+│   ├── silverbishop.png
+│   ├── silverking.png
+│   ├── goldboard.png
+│   ├── goldpawn.png
+│   ├── goldrook.png
+│   ├── goldknight.png
+│   ├── goldbishop.png
+│   ├── goldking.png
+│   ├── copperboard.png
+│   ├── copperpawn.png
+│   ├── copperrook.png
+│   ├── copperknight.png
+│   ├── copperbishop.png
+│   ├── copperking.png
+│   ├── sorren.png
+│   ├── tarnaa.png
+│   ├── iskyss.png
+│   ├── elara.png
+│   ├── havilah.png
+│   ├── briyana.png
+│   ├── alexandra.png
+│   ├── piper.png
+│   ├── background.png
+│   └── logo.png
+├── index.html
+├── game.html
+├── styles.css
+├── assets.js
+├── legend.js
+├── logic.js
+├── ai.js
+└── aihandler.js

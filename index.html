@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legends' Gambit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu">
+        <img id="logo" src="assets/logo.png" alt="Game Logo">
+        <div id="customization">
+            <h2>Customize Your Game</h2>
+            <div id="pieces-preview">
+                <!-- Piece previews will be displayed here -->
+            </div>
+            <div id="dropdowns">
+                <label for="region-select">Region:</label>
+                <select id="region-select">
+                    <option value="gold">Aurelea (Gold)</option>
+                    <option value="silver">Argenthal (Silver)</option>
+                    <option value="copper">Patinara (Copper)</option>
+                    <option value="iron">Ferrondar (Iron)</option>
+                </select>
+
+                <label for="legend-select">Legend:</label>
+                <select id="legend-select">
+                    <!-- Legends will be populated based on region -->
+                </select>
+
+                <label for="difficulty-select">Difficulty:</label>
+                <select id="difficulty-select">
+                    <option value="easy">Iron (Easy)</option>
+                    <option value="medium">Copper (Medium)</option>
+                    <option value="hard">Silver (Hard)</option>
+                    <option value="pro">Gold (Pro)</option>
+                </select>
+            </div>
+        </div>
+        <button id="tutorial-button">Tutorial</button>
+        <button id="play-button">Play</button>
+    </div>
+
+    <div id="tutorial-screen" style="display:none;">
+        <h1>Tutorial</h1>
+        <p>Explain how the game works here.</p>
+        <button id="back-button">Back</button>
+    </div>
+
+    <script src="assets.js"></script>
+    <script src="legend.js"></script>
+    <script src="logic.js"></script>
+    <script src="aihandler.js"></script>
+</body>
+</html>
